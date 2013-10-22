@@ -1,11 +1,11 @@
 class Rectangle:
 	def __init__(self, length, width):
-		self.Length=length
-		self.Width=width
-	def Area(self):
-		return (self.Length*self.Width)
-	def Perimeter(self):
-		return (2*(self.Length+self.Width))
+		self.Area=length*width
+		self.Perimeter=2*(length*width)
+	def getArea(self):
+		return (self.Area)
+	def getPerimeter(self):
+		return (self.Perimeter)
 	
 R1=Rectangle(2,3)
 R2=Rectangle(4,5)
